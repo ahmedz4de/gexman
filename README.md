@@ -29,3 +29,17 @@ Example usage:
 bash gxthemer.sh apply-theme ahmedz4de
 ```
 This will uninstall all user-installed extensions, install extensions specified in `/themes/ahmedz4de/extensions.txt` and import settings from `/themes/ahmedz4de/dconf.txt`. 
+
+
+## Themes
+Name: `ahmedz4de`
+
+![ahmedz4de](themes/ahmedz4de/screenshot.png)
+
+Extensions:
+`Dash To Panel`
+`Blur my Shell`
+`Vertical App Grid`
+`Desktop Icons NG (DING)`
+`AppIndicator and KStatusNotifierItem Support`
+`Caffeine`
