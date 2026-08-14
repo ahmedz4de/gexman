@@ -35,6 +35,8 @@ main(){
 		save_theme "$2"
 	elif [ "$1" == "apply-theme" ]; then
 		apply_theme "$2"
+	else
+		echo "invalid input"
 	fi
 }
 
