@@ -26,19 +26,22 @@ apply_theme(){
   		--dest org.gnome.Shell.Extensions \
  		--object-path /org/gnome/Shell/Extensions \
   		--method org.gnome.Shell.Extensions.InstallRemoteExtension \
-  		"$line"
+  		"$line" 1>/dev/null 2>/dev/null
 	done < ../themes/"$1"/extensions.txt
 }
 
 main(){
 	if [ "$1" == "uninstall-extensions" ]; then
 		uninstall_extensions
+		echo "Extensions uninstalled."
 	elif [ "$1" == "save-theme" ]; then
 		save_theme "$2"
+		echo "Theme '$2' saved."
 	elif [ "$1" == "apply-theme" ]; then
 		apply_theme "$2"
+		echo "Theme '$2' applied."
 	else
-		echo "invalid input"
+		echo "Invalid input."
 	fi
 }
 
