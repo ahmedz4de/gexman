@@ -16,6 +16,8 @@ save_theme(){
 }
 
 apply_theme(){
+	uninstall_extensions
+
 	dconf load /org/gnome/shell/extensions/ < ../themes/"$1"/dconf.txt
 	
 	while read -r line
