@@ -37,9 +37,12 @@ Name: `ahmedz4de`
 ![ahmedz4de](themes/ahmedz4de/screenshot.png)
 
 Extensions:
-`Dash To Panel`
-`Blur my Shell`
-`Vertical App Grid`
-`Desktop Icons NG (DING)`
-`AppIndicator and KStatusNotifierItem Support`
-`Caffeine`
+
+```
+Dash To Panel
+Blur my Shell
+Vertical App Grid
+Desktop Icons NG (DING)
+AppIndicator and KStatusNotifierItem Support
+Caffeine
+```
