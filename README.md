@@ -20,8 +20,8 @@ bash gxthemer.sh COMMAND [ARGS...]
 Commands:
 ```
 uninstall-extensions                 uninstalls all user-installed extensions
-save-theme my_theme_name             saves extension names and settings to a directory with the specified name
-apply-theme my_theme_name            calls uninstall-extensions, then applies a theme to the shell (will prompt for permission)
+save-theme                           saves extension names and settings to a directory with the specified name
+apply-theme                          calls uninstall-extensions, then applies a theme to the shell (will prompt for permission)
 ```
 
 Example usage:
