@@ -20,6 +20,7 @@ bash gxthemer.sh COMMAND [ARGS...]
 Commands:
 ```
 help                             Show this information
+uninstall-sysextensions          Uninstall all system-installed extensions. Requires sudo.
 uninstall-extensions             Uninstall all user-installed extensions
 save-theme                       Save extension names and settings to a directory with the specified name
 apply-theme                      Apply a theme with the specified name
@@ -28,23 +29,23 @@ apply-theme                      Apply a theme with the specified name
 Example usage:
 ```
 bash gxthemer.sh uninstall-extensions
-bash gxthemer.sh apply-theme ahmedz4de
+bash gxthemer.sh apply-theme gnome2
 ```
-This will uninstall all user-installed extensions, install extensions specified in `/themes/ahmedz4de/extensions.txt` (You will need to confirm their installation) and import settings from `/themes/ahmedz4de/dconf.txt`. 
+This will uninstall all user-installed extensions, install extensions specified in `/themes/gnome2/extensions.txt` (You will need to confirm their installation) and import settings from `/themes/gnome2/dconf.txt`. 
 
 
 ## Themes
-Name: `ahmedz4de`
+Name: `gnome2`
 
-![ahmedz4de](themes/ahmedz4de/screenshot.png)
+![gnome2](themes/gnome2/screenshot.png)
 
 Extensions:
 
 ```
-Dash To Panel
-Blur my Shell
-Vertical App Grid
-Desktop Icons NG (DING)
-AppIndicator and KStatusNotifierItem Support
-Caffeine
+appindicatorsupport@rgcjonas.gmail.com
+caffeine@patapon.info
+arcmenu@arcmenu.com
+places-menu@gnome-shell-extensions.gcampax.github.com
+window-list@gnome-shell-extensions.gcampax.github.com
+gtk4-ding@smedius.gitlab.com
 ```
