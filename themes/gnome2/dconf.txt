@@ -1,5 +1,7 @@
 [arcmenu]
 extra-categories=[(3, false), (0, true), (2, true), (1, false), (4, false)]
+hide-overview-on-arcmenu-open=true
+hide-overview-on-startup=true
 menu-button-appearance='Icon_Text'
 menu-button-icon='resource:///org/gnome/shell/extensions/arcmenu/icons/scalable/actions/distro-gnome-symbolic.svg'
 menu-button-text='Applications'
@@ -12,4 +14,4 @@ update-notifier-project-version=73
 
 [caffeine]
 cli-toggle=false
-indicator-position-max=2
+indicator-position-max=1
