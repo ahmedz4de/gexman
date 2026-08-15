@@ -30,7 +30,7 @@ apply-theme                      Apply a theme with the specified name
 
 Run this to check if you have pre-installed system extensions, if you don't, skip the next step.
 ```
-/usr/share/gnome-shell/extensions
+ls /usr/share/gnome-shell/extensions
 ```
 Uninstall pre-installed system extensions. This will require sudo and logout/reboot after running the command.
 ```
