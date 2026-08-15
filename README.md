@@ -19,13 +19,15 @@ bash gxthemer.sh COMMAND [ARGS...]
 
 Commands:
 ```
-uninstall-extensions                 uninstalls all user-installed extensions
-save-theme                           saves extension names and settings to a directory with the specified name
-apply-theme                          calls uninstall-extensions, then applies a specified theme
+help                             Show this information
+uninstall-extensions             Uninstall all user-installed extensions
+save-theme                       Save extension names and settings to a directory with the specified name
+apply-theme                      Apply a theme with the specified name
 ```
 
 Example usage:
 ```
+bash gxthemer.sh uninstall-extensions
 bash gxthemer.sh apply-theme ahmedz4de
 ```
 This will uninstall all user-installed extensions, install extensions specified in `/themes/ahmedz4de/extensions.txt` (You will need to confirm their installation) and import settings from `/themes/ahmedz4de/dconf.txt`. 

@@ -16,8 +16,6 @@ save_theme(){
 }
 
 apply_theme(){
-	uninstall_extensions
-
 	dconf load /org/gnome/shell/extensions/ < ../themes/"$1"/dconf.txt
 	
 	while read -r line
@@ -41,7 +39,16 @@ main(){
 		apply_theme "$2"
 		echo "Theme '$2' applied."
 	else
-		echo "Invalid input."
+		echo
+		echo "Usage:"
+		echo "  bash gxthemer.sh COMMAND [ARGS...]"
+		echo
+		echo "Commands:"
+		echo "  help                             Show this information"
+		echo "  uninstall-extensions             Uninstall all user-installed extensions"
+		echo "  save-theme                       Save extension names and settings to a directory with the specified name"
+		echo "  apply-theme                      Apply a theme with the specified name"
+		echo
 	fi
 }
 
