@@ -26,12 +26,24 @@ save-theme                       Save extension names and settings to a director
 apply-theme                      Apply a theme with the specified name
 ```
 
-Example usage:
+## Example usage (installing `gnome2` theme):
+
+Run this to check if you have pre-installed system extensions, if you don't, skip the next step.
+```
+/usr/share/gnome-shell/extensions
+```
+Uninstall pre-installed system extensions. This will require sudo and logout/reboot after running the command.
+```
+bash gxthemer.sh uninstall-sysextensions.
+```
+Uninstall user-installed extensions to avoid conflicts
 ```
 bash gxthemer.sh uninstall-extensions
+```
+Apply `gnome2` theme.
+```
 bash gxthemer.sh apply-theme gnome2
 ```
-This will uninstall all user-installed extensions, install extensions specified in `/themes/gnome2/extensions.txt` (You will need to confirm their installation) and import settings from `/themes/gnome2/dconf.txt`. 
 
 
 ## Themes
