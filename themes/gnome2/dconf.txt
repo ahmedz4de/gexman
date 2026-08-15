@@ -1,8 +1,15 @@
-[ding]
-check-x11wayland=true
+[arcmenu]
+extra-categories=[(3, false), (0, true), (2, true), (1, false), (4, false)]
+menu-button-appearance='Icon_Text'
+menu-button-icon='resource:///org/gnome/shell/extensions/arcmenu/icons/scalable/actions/distro-gnome-symbolic.svg'
+menu-button-text='Applications'
+menu-layout='budgie'
+prefs-visible-page=0
+recently-installed-apps=@as []
+search-entry-border-radius=(true, 25)
+show-recently-installed-apps=false
+update-notifier-project-version=73
 
-[just-perfection]
-activities-button=false
-dash=false
-double-super-to-appgrid=false
-search=false
+[caffeine]
+cli-toggle=false
+indicator-position-max=2

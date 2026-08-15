@@ -1,5 +1,6 @@
-apps-menu@gnome-shell-extensions.gcampax.github.com
+appindicatorsupport@rgcjonas.gmail.com
+caffeine@patapon.info
+arcmenu@arcmenu.com
 places-menu@gnome-shell-extensions.gcampax.github.com
 window-list@gnome-shell-extensions.gcampax.github.com
-ding@rastersoft.com
-just-perfection-desktop@just-perfection
+gtk4-ding@smedius.gitlab.com
