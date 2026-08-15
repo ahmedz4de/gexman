@@ -17,6 +17,7 @@ save_theme(){
 	mkdir ../themes/"$1"
 	gnome-extensions list --user > ../themes/"$1"/extensions.txt
 	dconf dump /org/gnome/shell/extensions/ > ../themes/"$1"/dconf.txt
+	echo "#!/bin/bash" > ../themes/"$1"/extra.sh
 }
 
 apply_theme(){
@@ -30,6 +31,8 @@ apply_theme(){
   		--method org.gnome.Shell.Extensions.InstallRemoteExtension \
   		"$line" 1>/dev/null 2>/dev/null
 	done < ../themes/"$1"/extensions.txt
+
+	bash ../themes/"$1"/extra.sh
 }
 
 main(){
