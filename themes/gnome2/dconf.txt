@@ -1,0 +1,8 @@
+[ding]
+check-x11wayland=true
+
+[just-perfection]
+activities-button=false
+dash=false
+double-super-to-appgrid=false
+search=false

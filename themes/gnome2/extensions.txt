@@ -1,0 +1,5 @@
+apps-menu@gnome-shell-extensions.gcampax.github.com
+places-menu@gnome-shell-extensions.gcampax.github.com
+window-list@gnome-shell-extensions.gcampax.github.com
+ding@rastersoft.com
+just-perfection-desktop@just-perfection
