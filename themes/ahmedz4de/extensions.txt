@@ -1,6 +1,0 @@
-dash-to-panel@jderose9.github.com
-blur-my-shell@aunetx
-vertical-app-grid@lublst.github.io
-ding@rastersoft.com
-appindicatorsupport@rgcjonas.gmail.com
-caffeine@patapon.info
