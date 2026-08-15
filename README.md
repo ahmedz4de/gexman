@@ -34,7 +34,7 @@ ls /usr/share/gnome-shell/extensions
 ```
 Uninstall pre-installed system extensions. This will require sudo and logout/reboot after running the command.
 ```
-bash gxthemer.sh uninstall-sysextensions.
+bash gxthemer.sh uninstall-sysextensions
 ```
 Uninstall user-installed extensions to avoid conflicts
 ```
