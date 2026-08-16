@@ -16,12 +16,12 @@ uninstall_sysextensions(){
 save_theme(){
 	mkdir ../themes/"$1"
 	gnome-extensions list --user > ../themes/"$1"/extensions.txt
-	dconf dump /org/gnome/shell/extensions/ > ../themes/"$1"/dconf.txt
+	dconf dump /org/gnome/shell/extensions/ > ../themes/"$1"/settings.txt
 	echo "#!/bin/bash" > ../themes/"$1"/extra.sh
 }
 
 apply_theme(){
-	dconf load /org/gnome/shell/extensions/ < ../themes/"$1"/dconf.txt
+	dconf load /org/gnome/shell/extensions/ < ../themes/"$1"/settings.txt
 	
 	while read -r line
 	do
