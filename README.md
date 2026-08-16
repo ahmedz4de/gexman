@@ -48,7 +48,7 @@ Apply `gnome2` theme.
 
 
 ## Themes
-Name: `gnome2`
+### Name: `gnome2`
 
 ![gnome2](themes/gnome2/screenshot.png)
 
@@ -56,9 +56,21 @@ Extensions:
 
 ```
 appindicatorsupport@rgcjonas.gmail.com
-caffeine@patapon.info
 arcmenu@arcmenu.com
 places-menu@gnome-shell-extensions.gcampax.github.com
 window-list@gnome-shell-extensions.gcampax.github.com
+gtk4-ding@smedius.gitlab.com
+```
+
+### Name: `win10`
+
+![win10](themes/win10/screenshot.png)
+
+Extensions:
+
+```
+appindicatorsupport@rgcjonas.gmail.com
+dash-to-panel@jderose9.github.com
+arcmenu@arcmenu.com
 gtk4-ding@smedius.gitlab.com
 ```

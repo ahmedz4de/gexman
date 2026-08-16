@@ -1,0 +1,25 @@
+[arcmenu]
+hide-overview-on-arcmenu-open=true
+hide-overview-on-startup=true
+menu-button-icon='resource:///org/gnome/shell/extensions/arcmenu/icons/scalable/actions/distro-gnome-symbolic.svg'
+menu-button-icon-size=30
+menu-layout='windows'
+prefs-visible-page=0
+search-entry-border-radius=(true, 25)
+show-recently-installed-apps=false
+update-notifier-project-version=73
+windows-show-frequent-apps=false
+windows-show-pinned-apps=true
+
+[dash-to-panel]
+animate-appicon-hover-animation-extent={'RIPPLE': 4, 'PLANK': 4, 'SIMPLE': 1}
+dot-position='BOTTOM'
+extension-version=73
+hotkeys-overlay-combo='TEMPORARILY'
+panel-anchors='{"LGD-0x00000000":"MIDDLE"}'
+panel-element-positions='{"LGD-0x00000000":[{"element":"showAppsButton","visible":false,"position":"stackedTL"},{"element":"activitiesButton","visible":false,"position":"stackedTL"},{"element":"leftBox","visible":true,"position":"stackedTL"},{"element":"taskbar","visible":true,"position":"stackedTL"},{"element":"centerBox","visible":true,"position":"stackedBR"},{"element":"dateMenu","visible":true,"position":"centerMonitor"},{"element":"rightBox","visible":true,"position":"stackedBR"},{"element":"systemMenu","visible":true,"position":"stackedBR"},{"element":"desktopButton","visible":true,"position":"stackedBR"}]}'
+panel-lengths='{}'
+panel-positions='{}'
+panel-sizes='{}'
+prefs-opened=false
+window-preview-title-position='TOP'

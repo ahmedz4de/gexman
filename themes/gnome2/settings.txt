@@ -11,7 +11,3 @@ recently-installed-apps=@as []
 search-entry-border-radius=(true, 25)
 show-recently-installed-apps=false
 update-notifier-project-version=73
-
-[caffeine]
-cli-toggle=false
-indicator-position-max=1

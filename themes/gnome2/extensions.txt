@@ -1,5 +1,4 @@
 appindicatorsupport@rgcjonas.gmail.com
-caffeine@patapon.info
 arcmenu@arcmenu.com
 places-menu@gnome-shell-extensions.gcampax.github.com
 window-list@gnome-shell-extensions.gcampax.github.com

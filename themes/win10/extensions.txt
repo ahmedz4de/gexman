@@ -1,0 +1,4 @@
+appindicatorsupport@rgcjonas.gmail.com
+dash-to-panel@jderose9.github.com
+arcmenu@arcmenu.com
+gtk4-ding@smedius.gitlab.com
