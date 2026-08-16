@@ -32,7 +32,8 @@ apply_theme(){
   		"$line" 1>/dev/null 2>/dev/null
 	done < ../themes/"$1"/extensions.txt
 
-	bash ../themes/"$1"/extra.sh
+	chmod +x ../themes/"$1"/extra.sh
+	../themes/"$1"/extra.sh
 }
 
 main(){
@@ -51,7 +52,7 @@ main(){
 	else
 		echo
 		echo "Usage:"
-		echo "  bash gxthemer.sh COMMAND [ARGS...]"
+		echo "  ./gxthemer.sh COMMAND [ARGS...]"
 		echo
 		echo "Commands:"
 		echo "  help                             Show this information"

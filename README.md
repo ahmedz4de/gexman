@@ -4,17 +4,18 @@ A GNOME extensions theming tool.
 
 ## Usage
 
-Clone and enter the repository:
+Clone, enter the repository and make `gxthemer.sh` executable:
 
 ```
 git clone https://github.com/ahmedz4de/gxthemer.git
 cd gxthemer/src/
+chmod +x gxthemer.sh
 ```
 
 Execute the script:
 
 ```
-bash gxthemer.sh COMMAND [ARGS...]
+./gxthemer.sh COMMAND [ARGS...]
 ```
 
 Commands:
@@ -34,15 +35,15 @@ ls /usr/share/gnome-shell/extensions
 ```
 Uninstall pre-installed system extensions. This will require sudo and logout/reboot after running the command.
 ```
-bash gxthemer.sh uninstall-sysextensions
+./gxthemer.sh uninstall-sysextensions
 ```
 Uninstall user-installed extensions to avoid conflicts
 ```
-bash gxthemer.sh uninstall-extensions
+./gxthemer.sh uninstall-extensions
 ```
 Apply `gnome2` theme.
 ```
-bash gxthemer.sh apply-theme gnome2
+./gxthemer.sh apply-theme gnome2
 ```
 
 
