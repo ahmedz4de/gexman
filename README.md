@@ -1,56 +1,55 @@
-# gxthemer
+# gxprofiles
 
-A GNOME extensions theming tool.
+A GNOME Extension Profiles Manager.
 
 ## Usage
 
-Clone, enter the repository and make `gxthemer.sh` executable:
+Clone, enter the repository and make `gxprofiles.sh` executable:
 
 ```
-git clone https://github.com/ahmedz4de/gxthemer.git
-cd gxthemer/src/
-chmod +x gxthemer.sh
+git clone https://github.com/ahmedz4de/gxprofiles.git
+cd gxprofiles/src/
+chmod +x gxprofiles.sh
 ```
 
-Execute the script:
+Executing the script:
 
 ```
-./gxthemer.sh COMMAND [ARGS...]
+./gxprofiles.sh COMMAND [ARGS...]
 ```
 
 Commands:
 ```
-help                             Show this information
-uninstall-sysextensions          Uninstall all system-installed extensions. Requires sudo.
-uninstall-extensions             Uninstall all user-installed extensions
-save-theme                       Save extension names and settings to a directory with the specified name
-apply-theme                      Apply a theme with the specified name
+reset                   Uninstalls all user extensions and their settings.
+sysreset                Uninstalls all system extensions and their settings. Requires sudo and logout/reboot after using.
+save                    Saves the profile.
+apply                   Applies the profile.
 ```
 
-## Example usage (installing `gnome2` theme):
+## Example usage (applying `gnome2` profile):
 
-Run this to check if you have pre-installed system extensions, if you don't, skip the next step.
+If you are running a distribution that ships GNOME with pre-installed system extensions (Ubuntu, Fedora, etc.), you will need to uninstall them in order to avoid conflicts. You can check if you have system extensions by running this:  
 ```
 ls /usr/share/gnome-shell/extensions
 ```
-Uninstall pre-installed system extensions. This will require sudo and logout/reboot after running the command.
+If you have them, uninstall system extensions. This will require sudo and logout/reboot after running the command.
 ```
-./gxthemer.sh uninstall-sysextensions
+./gxprofiles.sh sysreset
 ```
-Uninstall user-installed extensions to avoid conflicts
+Uninstall user extensions to avoid conflicts
 ```
-./gxthemer.sh uninstall-extensions
+./gxprofiles.sh reset
 ```
-Apply `gnome2` theme.
+Apply `gnome2` profile.
 ```
-./gxthemer.sh apply-theme gnome2
+./gxprofiles.sh apply gnome2
 ```
 
 
-## Themes
+## Profiles
 ### Name: `gnome2`
 
-![gnome2](themes/gnome2/screenshot.png)
+![gnome2](profiles/gnome2/screenshot.png)
 
 Extensions:
 
@@ -64,7 +63,7 @@ gtk4-ding@smedius.gitlab.com
 
 ### Name: `win10`
 
-![win10](themes/win10/screenshot.png)
+![win10](profiles/win10/screenshot.png)
 
 Extensions:
 
