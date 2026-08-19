@@ -5,6 +5,7 @@ hide-overview-on-startup=true
 menu-button-appearance='Icon_Text'
 menu-button-icon='resource:///org/gnome/shell/extensions/arcmenu/icons/scalable/actions/distro-gnome-symbolic.svg'
 menu-button-text='Applications'
+menu-item-icon-size='Extralarge'
 menu-layout='budgie'
 prefs-visible-page=0
 recently-installed-apps=@as []
