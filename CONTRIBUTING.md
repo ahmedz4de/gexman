@@ -1,11 +1,12 @@
-# Contributing to gxthemer
+# Contributing to gxprofiles
 
-You can contribute by uploading your theme for other people to use. To do so, first uninstall all extensions:
+You can contribute to the project by uploading your profile for other people to use. To do so, first uninstall all user and system extensions:
 ```
-./gxthemer.sh uninstall-extensions
+./gxprofiles.sh reset
+./gxprofiles.sh sysreset
 ```
 Install all your extensions, set your desired settings and record your changes:
 ```
-./gxthemer.sh save-theme my_theme_name
+./gxprofiles.sh save profile_name
 ```
-Then create a pull request with your generated theme files. Optionally, you can also include a screenshot and add your theme to README.md
+Then create a pull request with your generated profile files. You can include additional tweaks/settings as shell commands by modifying `extra.sh`. 
