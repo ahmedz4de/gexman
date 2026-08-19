@@ -25,11 +25,7 @@ apply(){
 	
 	while read -r line
 	do
-    		gdbus call --session \
-  		--dest org.gnome.Shell.Extensions \
- 		--object-path /org/gnome/Shell/Extensions \
-  		--method org.gnome.Shell.Extensions.InstallRemoteExtension \
-  		"$line" 1>/dev/null 2>/dev/null
+		gdbus call --session --dest org.gnome.Shell.Extensions --object-path /org/gnome/Shell/Extensions --method org.gnome.Shell.Extensions.InstallRemoteExtension "$line" 1>/dev/null 2>/dev/null
 	done < ../profiles/"$1"/extensions.txt
 
 	chmod +x ../profiles/"$1"/extra.sh
